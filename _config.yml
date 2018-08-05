@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Eunchong Lee"
   # avatar           : "/assets/img/photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  avatar           : "/assets/img/IMG_3489.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/img/3489.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   # avatar           : "/assets/img/subal.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   # avatar           : "/assets/img/0141.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "황금잉여"

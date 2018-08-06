@@ -7,19 +7,20 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+// body,th,td,input,select,textarea,button {/*color:#838383;*//*font-size:12px;*/ /*line-height:1.5;*/font-family:'Noto Sans',/*'BM JUA', 'nanumGothic', 'Dotum', sans-serif;*//*letter-spacing:-1px;*/}
 html {
-    font-size: 12px; // change to whatever
+    font-size: 14px; // change to whatever
   
     @include breakpoint($medium) {
-      font-size: 14px; // change to whatever
-    }
-  
-    @include breakpoint($large) {
       font-size: 16px; // change to whatever
     }
   
-    @include breakpoint($x-large) {
+    @include breakpoint($large) {
       font-size: 18px; // change to whatever
+    }
+  
+    @include breakpoint($x-large) {
+      font-size: 20px; // change to whatever
     }
   }
   

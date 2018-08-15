@@ -7,7 +7,7 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// body,th,td,input,select,textarea,button {/*color:#838383;*//*font-size:12px;*/ /*line-height:1.5;*/font-family:'Noto Sans',/*'BM JUA', 'nanumGothic', 'Dotum', sans-serif;*//*letter-spacing:-1px;*/}
+* {/*color:#838383;*//*font-size:12px;*/ /*line-height:1.5;*/font-family:"Noto Sans KR", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif,/*'BM JUA', 'nanumGothic', 'Dotum', sans-serif;*//*letter-spacing:-1px;*/}
 html {
     font-size: 14px; // change to whatever
   

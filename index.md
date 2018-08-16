@@ -3,6 +3,9 @@ layout: archive
 author_profile: true
 classes: wide
 title: ""
+# toc: true
+# toc_label: "About Me"
+# toc_icon: "cog"
 gallery2:
   - url: /assets/img/01.jpg
     image_path: /assets/img/01.jpg
@@ -136,7 +139,7 @@ jsmtrace-photo:
 
 <!-- <span class="fa fa-briefcase"></span> -->
 
-# Recent (TL;DR)
+## Recent (TL;DR)
 ---
 
 <i class="fa fa-graduation-cap fa-1x"></i> **석사** 졸업    
@@ -149,6 +152,14 @@ jsmtrace-photo:
   **아이넷캅** 스마트백신연구소  [(link)](http://www.inetcop.org/) `(2017.03.02~)`  
       `Django`, `Angular 2`, `MariaDB`, `Celery`, `Docker`, `AFL Fuzzer`, `ANGR Rex`
 
+<i class="fa fa-moon fa-1x"></i> Moonlight **Side Job**  
+>
+  **포켓모\*닷컴 앱/웹 서비스 운영**  
+    `다운로드 60만명`  
+  **A코인 Blockchain Explorer 개발**   
+    `Bitcoin RPC`, `Backend`, `Frontend`, `해외 거래소 상장코인`  
+  **B코인 라이브러리 취약성 점검**    
+    `Nodejs`, `국내 ICO`, `해외 거래소 상장코인`  
 
 <i class="fa fa-child fa-1x"></i> Recently **Experienced**  
 >
@@ -160,15 +171,6 @@ jsmtrace-photo:
     `Bootstrap`, `AdminLTE`, `Component Based`, `Typescript`
 
 
-<i class="fa fa-moon fa-1x"></i> Moonlight **Side Job**  
->
-  **포켓모\*닷컴 앱/웹 서비스 운영**  
-    `다운로드 60만명`  
-  **A코인 Blockchain Explorer 개발**   
-    `Bitcoin RPC`, `Backend`, `Frontend`, `해외 거래소 상장코인`  
-  **B코인 라이브러리 취약성 점검**    
-    `Nodejs`, `국내 ICO`, `해외 거래소 상장코인`  
-
 ---
 
 <!-- - **Hacking** --- `Fuzzing`, `Auto Exploit Generation`   -->
@@ -179,7 +181,7 @@ jsmtrace-photo:
 <!-- - Serving a mandatory military service `(2017.03.02~)` in [InetCop](http://www.inetcop.org/) -->
 
 
-# <i class="fa fa-trophy fa-1x"></i> Awards
+## <i class="fa fa-trophy fa-1x"></i> Awards
 
 --- 
 >
@@ -201,7 +203,7 @@ jsmtrace-photo:
 
 ---
 
-# <i class="fa fa-briefcase fa-1x"></i> Work Experience
+## <i class="fa fa-briefcase fa-1x"></i> Work Experience
 
 --- 
 >
@@ -248,9 +250,9 @@ jsmtrace-photo:
 ---  -->
 
 
-# <i class="fa fa-child fa-1x"></i> Personal Projects
+## <i class="fa fa-child fa-1x"></i> Personal Projects
 <blockquote>
-<div markdown="1">
+<div markdown="1">  
   **- 포켓\*아닷컴 웹/앱 서비스 운영** - `16.01.16 ~ 16.03.01, 3인 팀 개발`  
   *포켓몬고 포켓몬 지도 앱 포\*모아 / 앱 다운로드 60만명*{:.page__meta}  
     `Ionic`, `Django`, `Mysql`, `Memcached`, `CodeIgniter`, `GCP(Google Cloud Platform)`, `Nginx`   

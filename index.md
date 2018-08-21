@@ -150,7 +150,7 @@ jsmtrace-photo:
 <i class="fa fa-briefcase fa-1x"></i> **전문연구요원** 복무중   
 >
   **아이넷캅** 스마트백신연구소  [(link)](http://www.inetcop.org/) `(2017.03.02~)`  
-      `Django`, `Angular 2`, `MariaDB`, `Celery`, `Docker`, `AFL Fuzzer`, `ANGR Rex`
+      `Data Infrastructure for Machine Learning`, `Django`, `Angular 2`, `MariaDB`, `Celery`, `Docker`
 
 <i class="fa fa-moon fa-1x"></i> Moonlight **Side Job**  
 >

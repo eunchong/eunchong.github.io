@@ -213,7 +213,7 @@ jsmtrace-photo:
     `블록체인`, `Nodejs`, `Command Injection`, `Out of Memory`  
   **딜로이트 안진 회계법인 인턴** `(14.01.16 - 2개월)`  
     `모의해킹`, `컨설팅`, `Pentesting`, `Web Hacking`, `Reversing`      
-  **S대학 보안 컨설팅** `(14.07.09 - 1개월)`  
+<!--  **S대학 보안 컨설팅** `(14.07.09 - 1개월)`  
     `모의해킹`, `컨설팅`, `Pentesting`, `Web Hacking`      
   **K사 보안 컨설팅** `(14.01.16 - 1개월)`  
     `모의해킹`, `컨설팅`, `Pentesting`, `Web Hacking`, `Reversing`      
@@ -221,6 +221,7 @@ jsmtrace-photo:
     `모의해킹`, `컨설팅`, `Pentesting`, `Web Hacking`      
   **S사 보안 컨설팅** `(10.10.18 - 1주)`  
     `모의해킹`, `컨설팅`, `Pentesting`, `Web Hacking`      
+-->
 
 <!-- - 포\*\*아 **웹/앱 서비스** 운영(`다운로드 60만`) - `(16.01.16 - 2개월)`   
   --- `Ionic`, `Django`, `Mysql`, `Memcached`, `CodeIgniter`, `GCP(Google Cloud Platform)`, `Nginx`   

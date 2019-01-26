@@ -150,16 +150,17 @@ jsmtrace-photo:
 <i class="fa fa-briefcase fa-1x"></i> **전문연구요원** 복무중   
 >
   **아이넷캅** 스마트백신연구소  [(link)](http://www.inetcop.org/) `(2017.03.02~)`  
-      `Data Infrastructure for Machine Learning`, `Django`, `Angular 2`, `MariaDB`, `Celery`, `Docker`
+      `사이버면역기술`, `SW보안 취약점 자동탐지`, `Symbolic/Concrete Execution`, `Angr`, `Afl-fuzz`, `LibFuzzer`
+      <!-- `Data Infrastructure for Machine Learning`, `Django`, `Angular 2`, `MariaDB`, `Celery`, `Docker` -->
 
-<i class="fa fa-moon fa-1x"></i> Moonlight **Side Job**  
+<!-- <i class="fa fa-moon fa-1x"></i> Moonlight **Side Job**  
 >
   **포켓모\*닷컴 앱/웹 서비스 운영**  
     `다운로드 60만명`  
   **A코인 Blockchain Explorer 개발**   
     `Bitcoin RPC`, `Backend`, `Frontend`, `해외 거래소 상장코인`  
   **B코인 라이브러리 취약성 점검**    
-    `Nodejs`, `국내 ICO`, `해외 거래소 상장코인`  
+    `Nodejs`, `국내 ICO`, `해외 거래소 상장코인`   -->
 
 <i class="fa fa-child fa-1x"></i> Recently **Experienced**  
 >
@@ -167,7 +168,7 @@ jsmtrace-photo:
     `Auto Scaling`   
   **Django**  
     `Rest framework`, `Celery`, `PostgreSql`, `MariaDB`  
-  **Angular 2**  
+  **Angular 2+**  
     `Bootstrap`, `AdminLTE`, `Component Based`, `Typescript`
 
 
@@ -197,7 +198,8 @@ jsmtrace-photo:
 |             |2011 |**1위**  |Null@Root     |KISA 해킹방어대회           |한국인터넷진흥원 원장상  
 |             |2011 |**2위**  |Null@Root     |ISEC 해킹방어대회           |**행정안전부 장관상**  
 |             |2013 |**2위**  |Null@Root    |화이트햇컨테스트 해킹방어대회   |**국방부 장관상**  
-|             |2017 |3위      |Null@Root    |KISA 해킹방어대회          |한국인터넷진흥원 원장상  
+|             |2017 |**3위**  |Null@Root    |KISA 해킹방어대회          |한국인터넷진흥원 원장상  
+|             |2018 |**2위**  |(주)아이넷캅    |AI 기반 취약점 자동탐지대회          |한국인터넷진흥원 원장상  
 |**Etc**      |     |         |             |                  |  
 |             |2011 |**1위** |개인           |충남대학교 공과대학 우수 학생상  |충남대학교 총장상  
 
@@ -209,8 +211,8 @@ jsmtrace-photo:
 >
   **A코인 Blockchain Explorer 백엔드/프론트엔드 개발** `(18.04.11 - 2주)`  
       `블록체인`, `Bitcoin RPC`, `Django`, `Postgresql`, `Angular 2`  
-  **B코인 Nodejs 라이브러리 취약성 점검** `(18.05.19 - 1주)`  
-    `블록체인`, `Nodejs`, `Command Injection`, `Out of Memory`  
+  <!-- **B코인 Nodejs 라이브러리 취약성 점검** `(18.05.19 - 1주)`  
+    `블록체인`, `Nodejs`, `Command Injection`, `Out of Memory`   -->
   **딜로이트 안진 회계법인 인턴** `(14.01.16 - 2개월)`  
     `모의해킹`, `컨설팅`, `Pentesting`, `Web Hacking`, `Reversing`      
 <!--  **S대학 보안 컨설팅** `(14.07.09 - 1개월)`  

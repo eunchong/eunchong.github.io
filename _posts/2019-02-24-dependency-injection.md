@@ -32,9 +32,9 @@ classes: wide
 
 ## 해결방법 (Solution)
 
-의존성 주입은 [제어권 역전(inversion of control)](https://en.wikipedia.org/wiki/Inversion_of_control)이라고도 불리는데, 아이디어의 핵심은 객체의 사용을 생성으로부터 분리하는 것이다. 인젝터는 객체를 생성하고 클래스에 주입한다. 클래스는 주입된 객체를 사용하고, 생성을 하지 않는다.
+의존성 주입은 [제어의 역전(inversion of control)](https://en.wikipedia.org/wiki/Inversion_of_control)이라고도 불리는데, 아이디어의 핵심은 객체의 사용을 생성으로부터 분리하는 것이다. 인젝터는 객체를 생성하고 클래스에 주입한다. 클래스는 주입된 객체를 사용하고, 생성을 하지 않는다.
 
-> 세 가지 step로 나눠서 보자. 이 단계를 통해 구현, 변경, 테스트, 재사용이 쉬운 심플한 코드가 될 수 있다.
+> 세 가지 step로 나눠서 보자 이 단계를 통해 구현, 변경, 테스트, 재사용이 쉬운 심플한 코드가 될 수 있다.
 > 1. 객체가 생성되는 방법을 분리된 설정 파일 또는 분리된 객체에 지정한다.
 > 2. 인젝터가 객체를 삽입할 수 있도록 클래스는 객체를 받기 위한 생성자 또는 setter 메서드를 제공한다.
 > 3. 클래스는 인터페이스를 통해 주입된 객체를 사용한다.
@@ -115,8 +115,10 @@ Hello World from ServiceA1 and ServiceB1!
      9      } 
     10  }
 {% endhighlight %}
-위의 예제 코드는 먼저(1 step)로 분리된 설정 파일을 통해 객체를 지정했다. 다음으로(2 step) Client는 생성자를 통해 ServiceA, B를 주입받았다. 그리고(3 step) Client의 operation은 주입된 서비스를 사용한다. 
-{: .notice}
+> 위의 예제 코드에서 세 가지 step을 보자.  
+  * (1 step) 분리된 설정 파일을 통해 객체를 지정했다.  
+  * (2 step) Client는 생성자를 통해 ServiceA, B를 주입받았다.  
+  * (3 step) Client의 operation은 주입된 서비스를 사용한다.
 {% highlight java %}
      1  package com.sample.di.basic;
      2  import com.google.inject.Guice;
@@ -160,13 +162,16 @@ Hello World from ServiceA1 and ServiceB1!
      9      } 
     10  }
 {% endhighlight %}
-다음은 UnitTest를 위해 ClientTest 클래스를 만들었다. 1 step을 보면, 앞에서의 `new Configuration1()`가 `new ConfigurationMock()`로 변경된 것을 볼 수 있다. ConfigurationMock 설정을 통해 Injector는 Test 용 Mock Service를 생성했다. Client의 2, 3 step은 전혀 변경 없이 MockServiceA, B가 Client 클래스에 주입(inject) 되는 것을 볼 수 있다. 이를 통해 Client 클래스의 코드를 변경 없이, 의존되는 service를 외부 설정에서 변경하여 unit test를 수행할 수 있게 된다. 
-{: .notice}
+> 다음은 UnitTest를 위해 ClientTest 클래스를 만들었다. 
+  * (1 step) 앞에서의 `new Configuration1()`가 `new ConfigurationMock()`로 변경된 것을 볼 수 있다.
+    * (ConfigurationMock 설정을 통해 Injector는 Test 용 Mock Service를 생성한다) 
+  * (2-3 step) Client의 코드는 전혀 변경되지 않았지만 MockServiceA, B가 Client 클래스에 주입(inject) 되는 것을 볼 수 있다.  
+    * (다시 말해, Client 클래스의 코드를 변경 없이 의존되는 service를 외부 설정에서 변경하여 unit test를 수행할 수 있게 된다)
 
-## 결론 (Conclusion)
+## 역자 정리 (Conclusion)
 
-의존성 주입은 클래스에서 사용하는 서비스 객체의 생성에 대한 책임을 외부로 분리한다. 앞으로 서비스 객체를 생성하고 관리하는 방법이 고민된다면, mock Service를 활용해 unit test 하는 구조를 만들고 싶다면 의존성 주입 패턴을 활용할 수 있을 것이다.
+의존성 주입은 클래스에서 사용하는 서비스 객체의 생성에 대한 책임을 외부로 분리합니다. 앞으로 서비스 객체를 생성하고 관리하는 방법이 고민된다면, mock Service를 활용해 unit test 하는 구조를 만들고 싶다면 의존성 주입 패턴을 활용할 수 있을 것 같습니다.
 
 ## 향후 (Future Work)
 
-예제 코드에서 구글의 Guice를 활용하여 쉽고 간단하게 의존성 주입을 할 수 있었다. 향후 기회가 된다면 구글의 [Guice](https://github.com/google/guice)이 내부적으로 어떻게 객체를 관리([binding](https://github.com/google/guice/wiki/Bindings), [scope](https://github.com/google/guice/wiki/Scopes), [injection](https://github.com/google/guice/wiki/Injections)) 하는지 자세히 알아보고자 한다.
+예제 코드에서는 구글의 Guice를 활용하여 쉽고 간단하게 의존성 주입을 할 수 있었습니다. 향후 기회가 된다면 구글의 [Guice](https://github.com/google/guice)이 내부적으로 어떻게 객체를 관리([binding](https://github.com/google/guice/wiki/Bindings), [scope](https://github.com/google/guice/wiki/Scopes), [injection](https://github.com/google/guice/wiki/Injections)) 하는지 자세히 알아보고 정리해 보도록 하겠습니다.

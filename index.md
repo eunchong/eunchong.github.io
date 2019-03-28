@@ -293,11 +293,11 @@ jsmtrace-photo:
 </blockquote>
 <blockquote>
 <div markdown="1">
-  **- SW Maestro 프로젝트**, Image 2 Torrent ([slide](https://www.slideshare.net/jeyraof/image-2-torrent), [youtube](https://www.youtube.com/watch?v=Onn3VvzpLQA)) - `12.10.04, 3개월, 3인 팀 개발`  
+  **- SW Maestro 프로젝트**, Image 2 Torrent ([slide](https://www.slideshare.net/jeyraof/image-2-torrent), [youtube](https://www.youtube.com/watch?v=mKWT4Y1BZdM)) - `12.10.04, 3개월, 3인 팀 개발`  
   *영상 내 유사 이미지 검색 알고리즘을 구현하여 웹 서핑중 나타나는 이미지와 일치하는 토렌트 시드를 검색 및 다운로드*{:.page__meta}  
   `SW Maestro`, `Chrome Extenstion`, `C++`, `SIFT`, `LSH`, `Clustering`
 </div>
-{% include youtubePlayer id="Onn3VvzpLQA" %}
+{% include youtubePlayer id="mKWT4Y1BZdM" %}
 </blockquote>
 --- 
 

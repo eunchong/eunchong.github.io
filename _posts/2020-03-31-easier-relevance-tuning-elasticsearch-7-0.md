@@ -1,11 +1,11 @@
 ---
-title:  "[ElasticSearch] Easier Relevance Tuning in Elasticsearch 7.0"
+title:  "[Elasticsearch] Easier Relevance Tuning in Elasticsearch 7.0"
 search: true
 categories: 
-  - ElasticSearch
+  - Elasticsearch
 tags:
   - 검색엔진
-  - ElasticSearch
+  - Elasticsearch
   - ES
   - rank_feature
   - rank_features

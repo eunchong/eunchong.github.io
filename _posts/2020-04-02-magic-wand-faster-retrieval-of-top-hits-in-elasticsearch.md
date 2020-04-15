@@ -1,11 +1,11 @@
 ---
-title:  "[ElasticSearch] Magic WAND: Faster Retrieval of Top Hits in Elasticsearch"
+title:  "[Elasticsearch] Magic WAND: Faster Retrieval of Top Hits in Elasticsearch"
 search: true
 categories: 
-  - ElasticSearch
+  - Elasticsearch
 tags:
   - 검색엔진
-  - ElasticSearch
+  - Elasticsearch
   - ES
   - Magic WAND
   - Retrieval

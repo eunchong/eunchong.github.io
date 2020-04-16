@@ -35,7 +35,7 @@ BM25(Elasticsearch의 기본 랭킹 방식)를 포함해서 대부분의 문장 
 
 ## 새로운 New rank_feature와 rank_features 필드
 
-rank_feature 필드는 일반적인 float 필드와 유사하게 동작하지만, 이 필드가 랭킹에 사용될 때, 치에서 효과적으로 쿼리 할 수 있는 방식으로 데이터를 색인한다. rank_feature는 일반적으로 인기도, 권한, URL 길이 등의 관련성 측정에 사용된다. rank_features는 마찬가지로 유사하지만, 가중치 태그나 카테고리같이 sparse한 feature들에 더 적합하다.
+rank_feature 필드는 일반적인 float 필드와 유사하게 동작하지만, 이 필드가 랭킹에 사용될 때, 엘라스틱서치에서 효과적으로 쿼리 할 수 있는 방식으로 데이터를 색인한다. rank_feature는 일반적으로 인기도, 권한, URL 길이 등의 관련성 측정에 사용된다. rank_features는 마찬가지로 유사하지만, 가중치 태그나 카테고리같이 sparse한 feature들에 더 적합하다.
 
 다음의 예제를 살펴보자, 웹 페에지를 인덱싱하는 경우 `score = bm25_score + satu(pagerank)`를 계산하기 위해 우리는 다음과 같이 rank_feature 쿼리를 사용할 수 있다.
 

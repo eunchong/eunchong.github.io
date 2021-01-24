@@ -152,12 +152,11 @@ jsmtrace-photo:
 
 <i class="fa fa-shield-alt fa-1x"></i> **전문연구요원** 복무   
 >
-  **버즈니** 연구소  [(link)](https://buzzni.com/) `(2019.03.26~2020.03.02)`  
-      `홈쇼핑모아 검색 백엔드 개발`, `Python`, `Falcon`, `ElasticSearch`, `Amazon AWS`  
->
   **아이넷캅** 스마트백신연구소  [(link)](http://www.inetcop.org/) `(2017.03.02~2019.03.24)`  
       `사이버면역기술`, `SW보안 취약점 자동탐지`, `Symbolic/Concrete Execution`, `Angr`, `Afl-fuzz`, `LibFuzzer`
-      <!-- `Data Infrastructure for Machine Learning`, `Django`, `Angular 2`, `MariaDB`, `Celery`, `Docker` -->
+>
+  **버즈니** 연구소  [(link)](https://buzzni.com/) `(2019.03.26~2020.03.02)`  
+      `홈쇼핑모아 검색 백엔드 개발`, `Python`, `Falcon`, `ElasticSearch`, `Amazon AWS`  
 
 <i class="fa fa-briefcase fa-1x"></i> **백엔드엔지니어** 재직중
 >

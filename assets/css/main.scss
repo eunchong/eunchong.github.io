@@ -35,11 +35,11 @@ html {
   font-size: $type-size-4-5;
 }
 
-.language-plaintext {
-  font-family: $monospace;
-  font-size: $type-size-5;
-  background: #c0ffee;
-}
+// .language-plaintext {
+//   font-family: $monospace;
+//   font-size: $type-size-5;
+//   background: #c0ffee;
+// }
 
 
 // @charset "utf-8";
@@ -79,6 +79,14 @@ html {
     font-weight: 300;
     color: #000;
     font-size: 16px;
+}
+
+blockquote {
+    margin: 2em 1em 2em 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-style: normal;
+    border-left: 0.25em solid #7a8288;
 }
 
 .page__content blockquote {

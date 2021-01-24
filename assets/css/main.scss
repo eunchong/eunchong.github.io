@@ -1,29 +1,110 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+--- 
+# Only the main Sass file needs front matter (the dashes are enough) 
+--- 
+
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
+$sans-serif: 'Noto Sans KR';
+$monospace: 'Ubuntu Mono';
+$type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 
 @charset "utf-8";
+// @import "minimal-mistakes/skins/aqua"; // skin
+@import "minimal-mistakes";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
 
-* {/*color:#838383;*//*font-size:12px;*/ /*line-height:1.5;*/font-family:"Noto Sans KR", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif,/*'BM JUA', 'nanumGothic', 'Dotum', sans-serif;*//*letter-spacing:-1px;*/}
+// https://github.com/mmistakes/minimal-mistakes/issues/1219
 html {
-    font-size: 14px; // change to whatever
+  font-size: 14px; // change to whatever
   
-    @include breakpoint($medium) {
-      font-size: 16px; // change to whatever
-    }
-  
-    @include breakpoint($large) {
-      font-size: 18px; // change to whatever
-    }
-  
-    @include breakpoint($x-large) {
-      font-size: 20px; // change to whatever
-    }
+  @include breakpoint($medium) {
+    font-size: 16px; // change to whatever
   }
-  
-  .page__content p,.page__content li,.page__content dl{
-    font-size:0.75em;
+
+  @include breakpoint($large) {
+    font-size: 18px; // change to whatever
   }
+
+  @include breakpoint($x-large) {
+    font-size: 20px; // change to whatever
+  }
+}
+
+.highlight {
+  font-family: $monospace;
+  font-size: $type-size-4-5;
+}
+
+.language-plaintext {
+  font-family: $monospace;
+  font-size: $type-size-5;
+  background: #c0ffee;
+}
+
+
+// @charset "utf-8";
+
+// @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+// @import "minimal-mistakes"; // main partials
+
+// * {
+//   /*color:#838383;*/
+//   /*font-size:12px;*/
+//   /*line-height:1.5;*/
+//   font-family: "Noto Sans KR", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif,
+//     /*'BM JUA', 'nanumGothic', 'Dotum', sans-serif;*/
+//     /*letter-spacing:-1px;*/
+// }
+
+// html {
+//     font-size: 14px; // change to whatever
+
+//     @include breakpoint($medium) {
+//       font-size: 16px; // change to whatever
+//     }
+
+//     @include breakpoint($large) {
+//       font-size: 18px; // change to whatever
+//     }
+
+//     @include breakpoint($x-large) {
+//       font-size: 20px; // change to whatever
+//     }
+//   }
+
+.page__content p,
+.page__content li,
+.page__content dl {
+    line-height: 1.7;
+    font-weight: 300;
+    color: #000;
+    font-size: 16px;
+}
+
+.page__content blockquote {
+  position: relative;
+  margin-top: 12px;
+  // padding: 12px 8px 0 36px;
+  // border-left: none;
+  font-style: normal;
+  border-left: 0.25em solid #7a8288;
+}
+
+.page__content blockquote p {
+  font-weight: 200;
+}
+
+.page__content strong {
+  font-weight: 500;
+}
+
+.page__content p code {
+  font-weight: 500;
+  background-color: #eee;
+  color: #da3a6a;
+  font-size: 1em;
+}
+
+
+// html {
+// }

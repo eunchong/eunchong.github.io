@@ -146,15 +146,24 @@ jsmtrace-photo:
 >
   **고려대학교** 정보보호대학원  [(link)](https://sites.google.com/site/securesiplab) `(2015.03.02~2017.02.28)`  
       <!-- `V8 Engine`, `Memory Tracer`, `LLVM`, `AddressSanitizer`, `Shadow Memory`   -->
+      <!-- alien -->
+      <!-- <i class="fas fa-shield-alt"></i> -->
 
-<i class="fa fa-briefcase fa-1x"></i> **전문연구요원** 복무중   
+
+<i class="fa fa-shield-alt fa-1x"></i> **전문연구요원** 복무   
 >
-  **버즈니** 연구소  [(link)](https://buzzni.com/) `(2019.03.26~)`  
+  **버즈니** 연구소  [(link)](https://buzzni.com/) `(2019.03.26~2020.03.02)`  
       `홈쇼핑모아 검색 백엔드 개발`, `Python`, `Falcon`, `ElasticSearch`, `Amazon AWS`  
 >
   **아이넷캅** 스마트백신연구소  [(link)](http://www.inetcop.org/) `(2017.03.02~2019.03.24)`  
       `사이버면역기술`, `SW보안 취약점 자동탐지`, `Symbolic/Concrete Execution`, `Angr`, `Afl-fuzz`, `LibFuzzer`
       <!-- `Data Infrastructure for Machine Learning`, `Django`, `Angular 2`, `MariaDB`, `Celery`, `Docker` -->
+
+<i class="fa fa-briefcase fa-1x"></i> **백엔드엔지니어** 재직중
+>
+  **버즈니** 연구소  [(link)](https://buzzni.com/) `(2020.03.02~)`  
+      `홈쇼핑모아 커머스 백엔드 개발`, `Python`, `Falcon`, `ElasticSearch`, `Amazon AWS`, `k8s`
+
 
 <!-- <i class="fa fa-moon fa-1x"></i> Moonlight **Side Job**  
 >
@@ -165,14 +174,14 @@ jsmtrace-photo:
   **B코인 라이브러리 취약성 점검**    
     `Nodejs`, `국내 ICO`, `해외 거래소 상장코인`   -->
 
-<i class="fa fa-child fa-1x"></i> Recently **Experienced**  
+<!-- <i class="fa fa-child fa-1x"></i> Recently **Experienced**  
 >
   **GCP**(Google Cloud Platform)  
     `Auto Scaling`   
   **Django**  
     `Rest framework`, `Celery`, `PostgreSql`, `MariaDB`  
   **Angular 2+**  
-    `Bootstrap`, `AdminLTE`, `Component Based`, `Typescript`
+    `Bootstrap`, `AdminLTE`, `Component Based`, `Typescript` -->
 
 
 ---
@@ -208,16 +217,16 @@ jsmtrace-photo:
 
 ---
 
-## <i class="fa fa-briefcase fa-1x"></i> Work Experience
+<!-- ## <i class="fa fa-briefcase fa-1x"></i> Work Experience
 
 --- 
 >
   **A코인 Blockchain Explorer 백엔드/프론트엔드 개발** `(18.04.11 - 2주)`  
-      `블록체인`, `Bitcoin RPC`, `Django`, `Postgresql`, `Angular 2`  
+      `블록체인`, `Bitcoin RPC`, `Django`, `Postgresql`, `Angular 2`   -->
   <!-- **B코인 Nodejs 라이브러리 취약성 점검** `(18.05.19 - 1주)`  
     `블록체인`, `Nodejs`, `Command Injection`, `Out of Memory`   -->
-  **딜로이트 안진 회계법인 인턴** `(14.01.16 - 2개월)`  
-    `모의해킹`, `컨설팅`, `Pentesting`, `Web Hacking`, `Reversing`      
+  <!-- **딜로이트 안진 회계법인 인턴** `(14.01.16 - 2개월)`  
+    `모의해킹`, `컨설팅`, `Pentesting`, `Web Hacking`, `Reversing`       -->
 <!--  **S대학 보안 컨설팅** `(14.07.09 - 1개월)`  
     `모의해킹`, `컨설팅`, `Pentesting`, `Web Hacking`      
   **K사 보안 컨설팅** `(14.01.16 - 1개월)`  
@@ -238,8 +247,8 @@ jsmtrace-photo:
   - K사 보안 컨설팅 `(14.01.16 - 1개월)`  
   - S사 보안 컨설팅 `(11.04.13 - 1주)`  
   - S사 보안 컨설팅 `(10.10.18 - 1주)`   -->
-
---- 
+<!-- 
+---  -->
 
 
 
